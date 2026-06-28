@@ -1,8 +1,11 @@
 {
-  "name": "chatgpt-clone-monorepo",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node backend/index.js"
-  }
+    "name": "chatgpt-clone-monorepo",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "backend"
+    ],
+    "scripts": {
+        "start": "node backend/index.js"
+    }
 }
