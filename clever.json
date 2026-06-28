@@ -1,1 +1,5 @@
-
+{
+  "deploy": {
+    "app_folder": "backend"
+  }
+}
